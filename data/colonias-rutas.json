@@ -1,0 +1,9 @@
+[
+  { "colonia": "Zona Centro", "routeId": "RUTA-01", "horarioEstimado": "Matutino (06:30 - 07:15)" },
+  { "colonia": "Las Arboledas", "routeId": "RUTA-01", "horarioEstimado": "Matutino (07:00 - 07:30)" },
+  { "colonia": "Trojes", "routeId": "RUTA-13", "horarioEstimado": "Matutino (06:40 - 07:10)" },
+  { "colonia": "San Juanico", "routeId": "RUTA-03", "horarioEstimado": "Matutino (06:45 - 07:15)" },
+  { "colonia": "Los Olivos", "routeId": "RUTA-04", "horarioEstimado": "Matutino (07:00 - 07:40)" },
+  { "colonia": "Rancho Seco", "routeId": "RUTA-05", "horarioEstimado": "Vespertino (14:15 - 15:00)" },
+  { "colonia": "Las Insurgentes", "routeId": "RUTA-12", "horarioEstimado": "Matutino (06:35 - 07:10)" }
+]

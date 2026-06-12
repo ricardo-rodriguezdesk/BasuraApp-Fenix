@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BasuraApp — Panel Operativo</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --verde: #1a7a4a;
+    --verde-claro: #e8f5ee;
+    --verde-mid: #2d9e62;
+    --naranja: #ff6b00;
+    --naranja-claro: #fff3e0;
+    --rojo: #e53935;
+    --rojo-claro: #ffebee;
+    --azul: #1565c0;
+    --gris: #f0f4f8;
+    --gris-mid: #b0bec5;
+    --texto: #1a1a2e;
+    --blanco: #ffffff;
+    --sombra: 0 4px 24px rgba(0,0,0,0.10);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Syne', sans-serif;
+    background: #0d1117;
+    color: var(--blanco);
+    min-height: 100vh;
+  }
+
+  header {
+    background: linear-gradient(135deg, #0d2818 0%, #1a4a2e 100%);
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--verde);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .header-left { display: flex; align-items: center; gap: 14px; }
+  .header-logo { font-size: 28px; }
+  .header-title { font-size: 22px; font-weight: 800; color: var(--blanco); }
+  .header-sub { font-size: 12px; color: var(--gris-mid); font-family: 'Space Mono', monospace; }
+
+  .header-status {
+    display: flex; align-items: center; gap: 8px;
+    background: rgba(26,122,74,0.2);
+    border: 1px solid var(--verde);
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 13px; font-weight: 600;
+  }
+  .dot-live { width: 8px; height: 8px; background: #4caf50; border-radius: 50%; animation: pulse 1.5s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+  main { padding: 24px 32px; max-width: 1400px; margin: 0 auto; }
+
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .stat-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 20px;
+    transition: border-color 0.2s;
+  }
+  .stat-card:hover { border-color: var(--verde); }
+  .stat-label { font-size: 11px; color: var(--gris-mid); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; font-family: 'Space Mono', monospace; }
+  .stat-value { font-size: 32px; font-weight: 800; color: var(--blanco); }
+  .stat-sub { font-size: 12px; color: var(--gris-mid); margin-top: 4px; }
+
+  .section-title {
+    font-size: 16px; font-weight: 700; color: var(--gris-mid);
+    text-transform: uppercase; letter-spacing: 2px;
+    margin-bottom: 16px; font-family: 'Space Mono', monospace;
+  }
+
+  .alerta-creator {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 28px;
+  }
+
+  .alerta-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr auto;
+    gap: 12px;
+    align-items: end;
+  }
+
+  .form-group { display: flex; flex-direction: column; gap: 6px; }
+  .form-label { font-size: 11px; color: var(--gris-mid); text-transform: uppercase; letter-spacing: 1px; font-family: 'Space Mono', monospace; }
+
+  select, input[type="text"] {
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    color: var(--blanco);
+    padding: 10px 14px;
+    font-size: 14px;
+    font-family: 'Syne', sans-serif;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  select:focus, input[type="text"]:focus { border-color: var(--verde); }
+  select option { background: #161b22; }
+
+  .btn-crear {
+    background: var(--verde);
+    color: var(--blanco);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Syne', sans-serif;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    white-space: nowrap;
+  }
+  .btn-crear:hover { background: var(--verde-mid); transform: translateY(-1px); }
+  .btn-crear:active { transform: translateY(0); }
+
+  .alertas-activas {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 28px;
+  }
+
+  .alerta-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255,107,0,0.1);
+    border: 1px solid rgba(255,107,0,0.3);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    animation: slideIn 0.3s ease;
+  }
+  @keyframes slideIn { from{opacity:0;transform:translateY(-8px)} to{opacity:1;transform:translateY(0)} }
+
+  .alerta-info { display: flex; align-items: center; gap: 14px; }
+  .alerta-badge {
+    background: var(--naranja);
+    color: var(--blanco);
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+  }
+  .alerta-ruta { font-size: 13px; font-weight: 700; color: var(--naranja); }
+  .alerta-msg { font-size: 13px; color: var(--gris-mid); }
+
+  .btn-eliminar {
+    background: rgba(229,57,53,0.15);
+    border: 1px solid rgba(229,57,53,0.4);
+    color: #ef5350;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Syne', sans-serif;
+    transition: background 0.2s;
+  }
+  .btn-eliminar:hover { background: rgba(229,57,53,0.3); }
+
+  .sin-alertas {
+    text-align: center;
+    color: var(--gris-mid);
+    padding: 24px;
+    font-size: 13px;
+    font-family: 'Space Mono', monospace;
+  }
+
+  .rutas-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .ruta-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .ruta-card:hover { border-color: var(--verde); transform: translateY(-2px); }
+  .ruta-card.tiene-alerta { border-color: var(--naranja); }
+  .ruta-card.completada { opacity: 0.5; }
+
+  .ruta-id {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: var(--gris-mid);
+    margin-bottom: 6px;
+  }
+  .ruta-nombre { font-size: 13px; font-weight: 700; color: var(--blanco); margin-bottom: 10px; line-height: 1.3; }
+
+  .ruta-pos {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 8px;
+  }
+  .pos-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: #30363d;
+    transition: background 0.3s;
+  }
+  .pos-dot.activa { background: var(--verde); }
+  .pos-dot.proximity { background: var(--naranja); }
+  .pos-dot.completada { background: var(--gris-mid); }
+
+  .ruta-evento {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .evento-start { background: rgba(26,122,74,0.2); color: #4caf50; }
+  .evento-proximity { background: rgba(255,107,0,0.2); color: var(--naranja); }
+  .evento-completed { background: rgba(176,190,197,0.2); color: var(--gris-mid); }
+  .evento-camino { background: rgba(21,101,192,0.2); color: #64b5f6; }
+
+  .alerta-indicador {
+    position: absolute;
+    top: 8px; right: 8px;
+    width: 8px; height: 8px;
+    background: var(--naranja);
+    border-radius: 50%;
+    animation: pulse 1s infinite;
+  }
+
+  .reportes-section {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 28px;
+  }
+
+  .reporte-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #30363d;
+  }
+  .reporte-item:last-child { border-bottom: none; }
+  .reporte-tipo { font-size: 13px; font-weight: 600; color: var(--blanco); }
+  .reporte-meta { font-size: 11px; color: var(--gris-mid); font-family: 'Space Mono', monospace; }
+  .reporte-badge {
+    background: rgba(21,101,192,0.2);
+    color: #64b5f6;
+    border-radius: 4px;
+    padding: 3px 8px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .toast {
+    position: fixed;
+    bottom: 24px; right: 24px;
+    background: var(--verde);
+    color: var(--blanco);
+    padding: 14px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: var(--sombra);
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 999;
+  }
+  .toast.show { transform: translateY(0); opacity: 1; }
+  .toast.error { background: var(--rojo); }
+
+  .loading { color: var(--gris-mid); font-size: 13px; font-family: 'Space Mono', monospace; padding: 16px 0; }
+
+  @media (max-width: 900px) {
+    main { padding: 16px; }
+    .stats-row { grid-template-columns: repeat(2, 1fr); }
+    .rutas-grid { grid-template-columns: repeat(3, 1fr); }
+    .alerta-form { grid-template-columns: 1fr 1fr; }
+    .btn-crear { grid-column: span 2; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <div class="header-logo">🚛</div>
+    <div>
+      <div class="header-title">BasuraApp — Panel Operativo</div>
+      <div class="header-sub">Municipio de Celaya · HackOnLinces 2026</div>
+    </div>
+  </div>
+  <div class="header-status">
+    <div class="dot-live"></div>
+    Sistema activo
+  </div>
+</header>
+
+<main>
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-label">Rutas activas</div>
+      <div class="stat-value" id="stat-rutas">15</div>
+      <div class="stat-sub">de 15 totales</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Alertas activas</div>
+      <div class="stat-value" id="stat-alertas">0</div>
+      <div class="stat-sub">operativas ahora</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Colonias cubiertas</div>
+      <div class="stat-value">220</div>
+      <div class="stat-sub">colonias de Celaya</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Actualización</div>
+      <div class="stat-value" id="stat-tiempo">--</div>
+      <div class="stat-sub">último refresh</div>
+    </div>
+  </div>
+
+  <div class="alerta-creator">
+    <div class="section-title">⚠️ Crear alerta operativa</div>
+    <div class="alerta-form">
+      <div class="form-group">
+        <label class="form-label">Ruta</label>
+        <select id="sel-ruta">
+          <option value="">Selecciona ruta...</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Tipo</label>
+        <select id="sel-tipo">
+          <option value="TRAFICO">🚦 Tráfico</option>
+          <option value="PARADA_ALIMENTOS">🍽️ Parada por alimentos</option>
+          <option value="FALLA_MECANICA">🔧 Falla mecánica</option>
+          <option value="LLANTA_PONCHADA">🛞 Llanta ponchada</option>
+          <option value="CAMION_LLENO">📦 Camión lleno</option>
+          <option value="OTRO">📋 Otro</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Mensaje para ciudadanos</label>
+        <input type="text" id="inp-mensaje" placeholder="ej: Retraso de 20 min por tráfico en Av. Tecnológico" />
+      </div>
+      <button class="btn-crear" onclick="crearAlerta()">Enviar alerta</button>
+    </div>
+  </div>
+
+  <div class="alertas-activas">
+    <div class="section-title">🔴 Alertas en curso</div>
+    <div id="lista-alertas"><div class="sin-alertas">Sin alertas activas</div></div>
+  </div>
+
+  <div class="section-title">🗺️ Estado de rutas en tiempo real</div>
+  <div class="rutas-grid" id="rutas-grid">
+    <div class="loading">Cargando rutas...</div>
+  </div>
+
+  <div class="reportes-section">
+    <div class="section-title">📋 Reportes recientes de ciudadanos</div>
+    <div id="lista-reportes">
+      <div class="reporte-item">
+        <div>
+          <div class="reporte-tipo">El camión no pasó</div>
+          <div class="reporte-meta">RUTA-03 · hace 5 min</div>
+        </div>
+        <div class="reporte-badge">PENDIENTE</div>
+      </div>
+      <div class="reporte-item">
+        <div>
+          <div class="reporte-tipo">Pasó fuera de horario</div>
+          <div class="reporte-meta">RUTA-07 · hace 12 min</div>
+        </div>
+        <div class="reporte-badge">PENDIENTE</div>
+      </div>
+      <div class="reporte-item">
+        <div>
+          <div class="reporte-tipo">No recogió mis residuos</div>
+          <div class="reporte-meta">RUTA-01 · hace 28 min</div>
+        </div>
+        <div class="reporte-badge">PENDIENTE</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const API = 'http://10.137.112.65:8000';
+const alertasActivas = {};
+
+const RUTAS = [
+  {id:'RUTA-01',nombre:'Zona Centro'},{id:'RUTA-02',nombre:'Sector Norte'},{id:'RUTA-03',nombre:'San Juanico'},
+  {id:'RUTA-04',nombre:'Los Olivos'},{id:'RUTA-05',nombre:'Rancho Seco'},{id:'RUTA-06',nombre:'Rumbos de Roque'},
+  {id:'RUTA-07',nombre:'Ciudad Industrial'},{id:'RUTA-08',nombre:'Universidad Latina'},{id:'RUTA-09',nombre:'Hospital General'},
+  {id:'RUTA-10',nombre:'Sede UG Sur'},{id:'RUTA-11',nombre:'Torres Landa'},{id:'RUTA-12',nombre:'Las Insurgentes'},
+  {id:'RUTA-13',nombre:'Trojes'},{id:'RUTA-14',nombre:'La Toscana'},{id:'RUTA-15',nombre:'San José de Celaya'}
+];
+
+const EVENTOS = {
+  ROUTE_START: {label:'Iniciada', cls:'evento-start'},
+  TRUCK_PROXIMITY: {label:'Camión cercano', cls:'evento-proximity'},
+  ROUTE_COMPLETED: {label:'Finalizada', cls:'evento-completed'},
+  EN_CAMINO: {label:'En camino', cls:'evento-camino'}
+};
+
+// Poblar select de rutas
+const selRuta = document.getElementById('sel-ruta');
+RUTAS.forEach(r => {
+  const opt = document.createElement('option');
+  opt.value = r.id;
+  opt.textContent = `${r.id} — ${r.nombre}`;
+  selRuta.appendChild(opt);
+});
+
+function showToast(msg, error = false) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast show' + (error ? ' error' : '');
+  setTimeout(() => t.className = 'toast', 3000);
+}
+
+async function crearAlerta() {
+  const routeId = document.getElementById('sel-ruta').value;
+  const tipo = document.getElementById('sel-tipo').value;
+  const mensaje = document.getElementById('inp-mensaje').value.trim();
+  if (!routeId) { showToast('Selecciona una ruta', true); return; }
+  if (!mensaje) { showToast('Escribe un mensaje', true); return; }
+  try {
+    const res = await fetch(`${API}/alertas/operativa?route_id=${routeId}&tipo=${tipo}&mensaje=${encodeURIComponent(mensaje)}`, {
+      method: 'POST'
+    });
+    const data = await res.json();
+    if (data.activa) {
+      alertasActivas[routeId] = data;
+      renderAlertas();
+      document.getElementById('inp-mensaje').value = '';
+      document.getElementById('sel-ruta').value = '';
+      showToast(`✅ Alerta enviada a ${routeId}`);
+      actualizarStats();
+    }
+  } catch { showToast('Error al conectar con el servidor', true); }
+}
+
+async function eliminarAlerta(routeId) {
+  try {
+    await fetch(`${API}/alertas/operativa/${routeId}`, { method: 'DELETE' });
+    delete alertasActivas[routeId];
+    renderAlertas();
+    showToast(`🗑️ Alerta de ${routeId} eliminada`);
+    actualizarStats();
+  } catch { showToast('Error al eliminar', true); }
+}
+
+function renderAlertas() {
+  const lista = document.getElementById('lista-alertas');
+  const keys = Object.keys(alertasActivas);
+  if (keys.length === 0) {
+    lista.innerHTML = '<div class="sin-alertas">✅ Sin alertas activas — servicio normal</div>';
+    return;
+  }
+  lista.innerHTML = keys.map(k => {
+    const a = alertasActivas[k];
+    const rutaNombre = RUTAS.find(r => r.id === k)?.nombre || k;
+    return `
+      <div class="alerta-item">
+        <div class="alerta-info">
+          <span class="alerta-badge">${a.tipo.replace(/_/g,' ')}</span>
+          <div>
+            <div class="alerta-ruta">${k} — ${rutaNombre}</div>
+            <div class="alerta-msg">${a.mensaje}</div>
+          </div>
+        </div>
+        <button class="btn-eliminar" onclick="eliminarAlerta('${k}')">✕ Resolver</button>
+      </div>`;
+  }).join('');
+}
+
+function actualizarStats() {
+  document.getElementById('stat-alertas').textContent = Object.keys(alertasActivas).length;
+  const now = new Date();
+  document.getElementById('stat-tiempo').textContent = now.toLocaleTimeString('es-MX', {hour:'2-digit',minute:'2-digit'});
+}
+
+async function cargarEstadoRutas() {
+  const grid = document.getElementById('rutas-grid');
+  
+  // Intentar cargar ETA de cada ruta — sin auth, solo mostrar estado simulado
+  grid.innerHTML = RUTAS.map(r => {
+    const tieneAlerta = alertasActivas[r.id];
+    return `
+      <div class="ruta-card ${tieneAlerta ? 'tiene-alerta' : ''}" id="card-${r.id}">
+        ${tieneAlerta ? '<div class="alerta-indicador"></div>' : ''}
+        <div class="ruta-id">${r.id}</div>
+        <div class="ruta-nombre">${r.nombre}</div>
+        <div class="ruta-pos" id="pos-${r.id}">
+          ${Array.from({length:8}, (_,i) => `<div class="pos-dot" id="dot-${r.id}-${i}"></div>`).join('')}
+        </div>
+        <span class="ruta-evento evento-camino" id="evento-${r.id}">Cargando...</span>
+      </div>`;
+  }).join('');
+
+  actualizarStats();
+}
+
+function actualizarPosicionesSimuladas() {
+  // Mostrar estado visual basado en tiempo actual
+  const minuto = new Date().getMinutes();
+  RUTAS.forEach((r, idx) => {
+    const pos = ((minuto + idx * 2) % 8) + 1;
+    const dots = document.querySelectorAll(`[id^="dot-${r.id}-"]`);
+    dots.forEach((d, i) => {
+      d.className = 'pos-dot';
+      if (i < pos) {
+        if (pos === 4) d.classList.add('proximity');
+        else if (pos >= 8) d.classList.add('completada');
+        else d.classList.add('activa');
+      }
+    });
+    const eventoEl = document.getElementById(`evento-${r.id}`);
+    const cardEl = document.getElementById(`card-${r.id}`);
+    let evento, cls;
+    if (pos === 1) { evento = 'Iniciada'; cls = 'evento-start'; }
+    else if (pos === 4) { evento = '🚨 Camión cercano'; cls = 'evento-proximity'; }
+    else if (pos >= 8) { evento = 'Finalizada'; cls = 'evento-completed'; cardEl?.classList.add('completada'); }
+    else { evento = `En camino (${pos}/8)`; cls = 'evento-camino'; }
+    if (eventoEl) { eventoEl.textContent = evento; eventoEl.className = `ruta-evento ${cls}`; }
+  });
+}
+
+// Init
+cargarEstadoRutas();
+setTimeout(actualizarPosicionesSimuladas, 500);
+setInterval(actualizarPosicionesSimuladas, 30000);
+setInterval(actualizarStats, 60000);
+</script>
+</body>
+</html>
+```

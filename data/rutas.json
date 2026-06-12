@@ -1,0 +1,242 @@
+[
+  {
+    "routeId": "RUTA-01",
+    "name": "Zona Centro - Las Arboledas",
+    "truckId": 101,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:00:00Z" },
+      { "positionId": 2, "lat": 20.5185, "lng": -100.8450, "speed": 45, "timestamp": "2026-05-22T06:12:00Z" },
+      { "positionId": 3, "lat": 20.5215, "lng": -100.8142, "speed": 22, "timestamp": "2026-05-22T06:25:00Z" },
+      { "positionId": 4, "lat": 20.5212, "lng": -100.8175, "speed": 15, "timestamp": "2026-05-22T06:38:00Z" },
+      { "positionId": 5, "lat": 20.5210, "lng": -100.8210, "speed": 0,  "timestamp": "2026-05-22T06:50:00Z" },
+      { "positionId": 6, "lat": 20.5235, "lng": -100.8212, "speed": 18, "timestamp": "2026-05-22T07:05:00Z" },
+      { "positionId": 7, "lat": 20.5260, "lng": -100.8215, "speed": 20, "timestamp": "2026-05-22T07:18:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 40, "timestamp": "2026-05-22T07:40:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-02",
+    "name": "Sector Norte - Av. Tecnológico",
+    "truckId": 102,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:05:00Z" },
+      { "positionId": 2, "lat": 20.5280, "lng": -100.8135, "speed": 38, "timestamp": "2026-05-22T06:18:00Z" },
+      { "positionId": 3, "lat": 20.5410, "lng": -100.8130, "speed": 25, "timestamp": "2026-05-22T06:30:00Z" },
+      { "positionId": 4, "lat": 20.5445, "lng": -100.8132, "speed": 12, "timestamp": "2026-05-22T06:45:00Z" },
+      { "positionId": 5, "lat": 20.5480, "lng": -100.8135, "speed": 0,  "timestamp": "2026-05-22T06:58:00Z" },
+      { "positionId": 6, "lat": 20.5515, "lng": -100.8138, "speed": 15, "timestamp": "2026-05-22T07:10:00Z" },
+      { "positionId": 7, "lat": 20.5540, "lng": -100.8110, "speed": 22, "timestamp": "2026-05-22T07:25:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 45, "timestamp": "2026-05-22T07:50:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-03",
+    "name": "Sector Poniente - San Juanico",
+    "truckId": 103,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:10:00Z" },
+      { "positionId": 2, "lat": 20.5250, "lng": -100.8510, "speed": 42, "timestamp": "2026-05-22T06:20:00Z" },
+      { "positionId": 3, "lat": 20.5290, "lng": -100.8320, "speed": 20, "timestamp": "2026-05-22T06:35:00Z" },
+      { "positionId": 4, "lat": 20.5315, "lng": -100.8355, "speed": 15, "timestamp": "2026-05-22T06:48:00Z" },
+      { "positionId": 5, "lat": 20.5340, "lng": -100.8390, "speed": 0,  "timestamp": "2026-05-22T07:00:00Z" },
+      { "positionId": 6, "lat": 20.5362, "lng": -100.8425, "speed": 10, "timestamp": "2026-05-22T07:15:00Z" },
+      { "positionId": 7, "lat": 20.5330, "lng": -100.8430, "speed": 18, "timestamp": "2026-05-22T07:28:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 35, "timestamp": "2026-05-22T07:45:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-04",
+    "name": "Oriente - Los Olivos",
+    "truckId": 104,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:15:00Z" },
+      { "positionId": 2, "lat": 20.5260, "lng": -100.8010, "speed": 45, "timestamp": "2026-05-22T06:30:00Z" },
+      { "positionId": 3, "lat": 20.5295, "lng": -100.7890, "speed": 24, "timestamp": "2026-05-22T06:45:00Z" },
+      { "positionId": 4, "lat": 20.5320, "lng": -100.7850, "speed": 12, "timestamp": "2026-05-22T06:58:00Z" },
+      { "positionId": 5, "lat": 20.5350, "lng": -100.7790, "speed": 0,  "timestamp": "2026-05-22T07:12:00Z" },
+      { "positionId": 6, "lat": 20.5310, "lng": -100.7760, "speed": 15, "timestamp": "2026-05-22T07:25:00Z" },
+      { "positionId": 7, "lat": 20.5270, "lng": -100.7820, "speed": 26, "timestamp": "2026-05-22T07:38:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 48, "timestamp": "2026-05-22T07:58:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-05",
+    "name": "Sector Sur - Rancho Seco",
+    "truckId": 105,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:20:00Z" },
+      { "positionId": 2, "lat": 20.5050, "lng": -100.8620, "speed": 35, "timestamp": "2026-05-22T06:32:00Z" },
+      { "positionId": 3, "lat": 20.5020, "lng": -100.8350, "speed": 22, "timestamp": "2026-05-22T06:45:00Z" },
+      { "positionId": 4, "lat": 20.4995, "lng": -100.8210, "speed": 14, "timestamp": "2026-05-22T06:58:00Z" },
+      { "positionId": 5, "lat": 20.4970, "lng": -100.8150, "speed": 0,  "timestamp": "2026-05-22T07:10:00Z" },
+      { "positionId": 6, "lat": 20.5010, "lng": -100.8120, "speed": 16, "timestamp": "2026-05-22T07:22:00Z" },
+      { "positionId": 7, "lat": 20.5060, "lng": -100.8160, "speed": 25, "timestamp": "2026-05-22T07:35:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 40, "timestamp": "2026-05-22T07:55:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-06",
+    "name": "Norte Extremo - Rumbos de Roque",
+    "truckId": 106,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:00:00Z" },
+      { "positionId": 2, "lat": 20.5380, "lng": -100.8380, "speed": 40, "timestamp": "2026-05-22T06:15:00Z" },
+      { "positionId": 3, "lat": 20.5610, "lng": -100.8370, "speed": 30, "timestamp": "2026-05-22T06:30:00Z" },
+      { "positionId": 4, "lat": 20.5750, "lng": -100.8360, "speed": 15, "timestamp": "2026-05-22T06:45:00Z" },
+      { "positionId": 5, "lat": 20.5820, "lng": -100.8350, "speed": 0,  "timestamp": "2026-05-22T07:00:00Z" },
+      { "positionId": 6, "lat": 20.5780, "lng": -100.8310, "speed": 20, "timestamp": "2026-05-22T07:15:00Z" },
+      { "positionId": 7, "lat": 20.5650, "lng": -100.8320, "speed": 28, "timestamp": "2026-05-22T07:30:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 45, "timestamp": "2026-05-22T07:55:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-07",
+    "name": "Nororiente - Ciudad Industrial",
+    "truckId": 107,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:10:00Z" },
+      { "positionId": 2, "lat": 20.5350, "lng": -100.8050, "speed": 44, "timestamp": "2026-05-22T06:24:00Z" },
+      { "positionId": 3, "lat": 20.5450, "lng": -100.7950, "speed": 25, "timestamp": "2026-05-22T06:38:00Z" },
+      { "positionId": 4, "lat": 20.5480, "lng": -100.7850, "speed": 18, "timestamp": "2026-05-22T06:52:00Z" },
+      { "positionId": 5, "lat": 20.5510, "lng": -100.7750, "speed": 0,  "timestamp": "2026-05-22T07:05:00Z" },
+      { "positionId": 6, "lat": 20.5460, "lng": -100.7720, "speed": 12, "timestamp": "2026-05-22T07:18:00Z" },
+      { "positionId": 7, "lat": 20.5390, "lng": -100.7820, "speed": 30, "timestamp": "2026-05-22T07:30:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 42, "timestamp": "2026-05-22T07:52:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-08",
+    "name": "Suroriente - Universidad Latina",
+    "truckId": 108,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:15:00Z" },
+      { "positionId": 2, "lat": 20.5180, "lng": -100.8310, "speed": 38, "timestamp": "2026-05-22T06:28:00Z" },
+      { "positionId": 3, "lat": 20.5245, "lng": -100.7980, "speed": 30, "timestamp": "2026-05-22T06:42:00Z" },
+      { "positionId": 4, "lat": 20.5210, "lng": -100.7995, "speed": 14, "timestamp": "2026-05-22T06:55:00Z" },
+      { "positionId": 5, "lat": 20.5175, "lng": -100.8010, "speed": 0,  "timestamp": "2026-05-22T07:08:00Z" },
+      { "positionId": 6, "lat": 20.5140, "lng": -100.8030, "speed": 18, "timestamp": "2026-05-22T07:20:00Z" },
+      { "positionId": 7, "lat": 20.5110, "lng": -100.8055, "speed": 22, "timestamp": "2026-05-22T07:32:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 40, "timestamp": "2026-05-22T07:54:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-09",
+    "name": "Poniente - Hospital General",
+    "truckId": 109,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:02:00Z" },
+      { "positionId": 2, "lat": 20.5210, "lng": -100.8650, "speed": 45, "timestamp": "2026-05-22T06:12:00Z" },
+      { "positionId": 3, "lat": 20.5260, "lng": -100.8520, "speed": 26, "timestamp": "2026-05-22T06:24:00Z" },
+      { "positionId": 4, "lat": 20.5275, "lng": -100.8490, "speed": 12, "timestamp": "2026-05-22T06:36:00Z" },
+      { "positionId": 5, "lat": 20.5285, "lng": -100.8460, "speed": 0,  "timestamp": "2026-05-22T06:48:00Z" },
+      { "positionId": 6, "lat": 20.5250, "lng": -100.8470, "speed": 15, "timestamp": "2026-05-22T07:00:00Z" },
+      { "positionId": 7, "lat": 20.5220, "lng": -100.8550, "speed": 32, "timestamp": "2026-05-22T07:12:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 44, "timestamp": "2026-05-22T07:30:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-10",
+    "name": "Eje Juan Pablo II - Sede UG Sur",
+    "truckId": 110,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:22:00Z" },
+      { "positionId": 2, "lat": 20.5015, "lng": -100.8520, "speed": 40, "timestamp": "2026-05-22T06:34:00Z" },
+      { "positionId": 3, "lat": 20.4990, "lng": -100.8390, "speed": 28, "timestamp": "2026-05-22T06:46:00Z" },
+      { "positionId": 4, "lat": 20.4950, "lng": -100.8320, "speed": 18, "timestamp": "2026-05-22T06:58:00Z" },
+      { "positionId": 5, "lat": 20.4920, "lng": -100.8280, "speed": 0,  "timestamp": "2026-05-22T07:10:00Z" },
+      { "positionId": 6, "lat": 20.4945, "lng": -100.8240, "speed": 14, "timestamp": "2026-05-22T07:22:00Z" },
+      { "positionId": 7, "lat": 20.4980, "lng": -100.8300, "speed": 30, "timestamp": "2026-05-22T07:34:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 38, "timestamp": "2026-05-22T07:52:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-11",
+    "name": "Zona de Oro - Torres Landa",
+    "truckId": 111,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:04:00Z" },
+      { "positionId": 2, "lat": 20.5240, "lng": -100.8350, "speed": 36, "timestamp": "2026-05-22T06:16:00Z" },
+      { "positionId": 3, "lat": 20.5280, "lng": -100.8250, "speed": 22, "timestamp": "2026-05-22T06:29:00Z" },
+      { "positionId": 4, "lat": 20.5295, "lng": -100.8210, "speed": 10, "timestamp": "2026-05-22T06:42:00Z" },
+      { "positionId": 5, "lat": 20.5310, "lng": -100.8170, "speed": 0,  "timestamp": "2026-05-22T06:55:00Z" },
+      { "positionId": 6, "lat": 20.5290, "lng": -100.8140, "speed": 16, "timestamp": "2026-05-22T07:08:00Z" },
+      { "positionId": 7, "lat": 20.5260, "lng": -100.8220, "speed": 28, "timestamp": "2026-05-22T07:21:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 42, "timestamp": "2026-05-22T07:42:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-12",
+    "name": "Nororiente - Las Insurgentes",
+    "truckId": 112,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:08:00Z" },
+      { "positionId": 2, "lat": 20.5280, "lng": -100.8080, "speed": 40, "timestamp": "2026-05-22T06:22:00Z" },
+      { "positionId": 3, "lat": 20.5320, "lng": -100.7980, "speed": 24, "timestamp": "2026-05-22T06:35:00Z" },
+      { "positionId": 4, "lat": 20.5340, "lng": -100.7940, "speed": 15, "timestamp": "2026-05-22T06:48:00Z" },
+      { "positionId": 5, "lat": 20.5360, "lng": -100.7900, "speed": 0,  "timestamp": "2026-05-22T07:00:00Z" },
+      { "positionId": 6, "lat": 20.5310, "lng": -100.7920, "speed": 12, "timestamp": "2026-05-22T07:12:00Z" },
+      { "positionId": 7, "lat": 20.5270, "lng": -100.8020, "speed": 26, "timestamp": "2026-05-22T07:25:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 44, "timestamp": "2026-05-22T07:48:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-13",
+    "name": "Sector Norte - Trojes e Irrigación",
+    "truckId": 113,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:12:00Z" },
+      { "positionId": 2, "lat": 20.5360, "lng": -100.8190, "speed": 35, "timestamp": "2026-05-22T06:26:00Z" },
+      { "positionId": 3, "lat": 20.5420, "lng": -100.8080, "speed": 28, "timestamp": "2026-05-22T06:40:00Z" },
+      { "positionId": 4, "lat": 20.5440, "lng": -100.8040, "speed": 14, "timestamp": "2026-05-22T06:54:00Z" },
+      { "positionId": 5, "lat": 20.5460, "lng": -100.8000, "speed": 0,  "timestamp": "2026-05-22T07:06:00Z" },
+      { "positionId": 6, "lat": 20.5410, "lng": -100.8020, "speed": 18, "timestamp": "2026-05-22T07:18:00Z" },
+      { "positionId": 7, "lat": 20.5370, "lng": -100.8120, "speed": 25, "timestamp": "2026-05-22T07:30:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 39, "timestamp": "2026-05-22T07:54:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-14",
+    "name": "Sur Poniente - La Toscana",
+    "truckId": 114,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:16:00Z" },
+      { "positionId": 2, "lat": 20.5150, "lng": -100.8580, "speed": 42, "timestamp": "2026-05-22T06:28:00Z" },
+      { "positionId": 3, "lat": 20.5140, "lng": -100.8390, "speed": 26, "timestamp": "2026-05-22T06:41:00Z" },
+      { "positionId": 4, "lat": 20.5125, "lng": -100.8310, "speed": 16, "timestamp": "2026-05-22T06:54:00Z" },
+      { "positionId": 5, "lat": 20.5110, "lng": -100.8250, "speed": 0,  "timestamp": "2026-05-22T07:06:00Z" },
+      { "positionId": 6, "lat": 20.5135, "lng": -100.8280, "speed": 12, "timestamp": "2026-05-22T07:18:00Z" },
+      { "positionId": 7, "lat": 20.5160, "lng": -100.8420, "speed": 32, "timestamp": "2026-05-22T07:30:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 45, "timestamp": "2026-05-22T07:51:00Z" }
+    ]
+  },
+  {
+    "routeId": "RUTA-15",
+    "name": "Norponiente - Camino a San José de Celaya",
+    "truckId": 115,
+    "status": "EN_RUTA",
+    "positions": [
+      { "positionId": 1, "lat": 20.5111, "lng": -100.9037, "speed": 0, "timestamp": "2026-05-22T06:18:00Z" },
+      { "positionId": 2, "lat": 20.5320, "lng": -100.8590, "speed": 38, "timestamp": "2026-05-22T06:31:00Z" },
+      { "positionId": 3, "lat": 20.5390, "lng": -100.8480, "speed": 24, "timestamp": "2026-05-22T06:44:00Z" },
+      { "positionId": 4, "lat": 20.5420, "lng": -100.8440, "speed": 15, "timestamp": "2026-05-22T06:57:00Z" },
+      { "positionId": 5, "lat": 20.5450, "lng": -100.8410, "speed": 0,  "timestamp": "2026-05-22T07:09:00Z" },
+      { "positionId": 6, "lat": 20.5410, "lng": -100.8430, "speed": 14, "timestamp": "2026-05-22T07:21:00Z" },
+      { "positionId": 7, "lat": 20.5360, "lng": -100.8520, "speed": 28, "timestamp": "2026-05-22T07:33:00Z" },
+      { "positionId": 8, "lat": 20.5111, "lng": -100.9037, "speed": 41, "timestamp": "2026-05-22T07:54:00Z" }
+    ]
+  }
+]

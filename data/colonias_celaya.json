@@ -1,0 +1,1790 @@
+[
+  {
+    "colonia": "Celaya Centro",
+    "cp": "38000",
+    "lat": 20.8802,
+    "lng": -100.8941
+  },
+  {
+    "colonia": "Santa Cecilia",
+    "cp": "38008",
+    "lat": 20.8802,
+    "lng": -100.8941
+  },
+  {
+    "colonia": "Palas Atenea",
+    "cp": "38009",
+    "lat": 20.8802,
+    "lng": -100.8941
+  },
+  {
+    "colonia": "San Antonio",
+    "cp": "38010",
+    "lat": 21.0667,
+    "lng": -100.4833
+  },
+  {
+    "colonia": "Del Parque 3a Secc",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "San Andres",
+    "cp": "38010",
+    "lat": 21.1053,
+    "lng": -100.6931
+  },
+  {
+    "colonia": "Del Parque 2a Secc",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Guanajuato",
+    "cp": "38010",
+    "lat": 21.0167,
+    "lng": -101.25
+  },
+  {
+    "colonia": "Alfredo Vazquez Bonfil",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "San Martin de Camargo",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Fovissste",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Nuevo Tecnologico",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Canal de Camargo",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Quinta Santa Maria",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Ciudad Industrial",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Real de Celaya",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Residencial Del Parque",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Residencial Tecnologico",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Residencial Campestre",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Industriales",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Del Parque 1a Secc",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Las Brisas",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Lindavista",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Mexico",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Valle Hermoso",
+    "cp": "38010",
+    "lat": 21.0629,
+    "lng": -100.8088
+  },
+  {
+    "colonia": "Del Refugio",
+    "cp": "38013",
+    "lat": 21.2732,
+    "lng": -101.2936
+  },
+  {
+    "colonia": "Los Naranjos",
+    "cp": "38013",
+    "lat": 21.17,
+    "lng": -101.6258
+  },
+  {
+    "colonia": "Las Casas",
+    "cp": "38013",
+    "lat": 21.2732,
+    "lng": -101.2936
+  },
+  {
+    "colonia": "El Puente",
+    "cp": "38013",
+    "lat": 21.5164,
+    "lng": -101.4217
+  },
+  {
+    "colonia": "Valle Naranjos",
+    "cp": "38013",
+    "lat": 21.2732,
+    "lng": -101.2936
+  },
+  {
+    "colonia": "San Gabriel",
+    "cp": "38013",
+    "lat": 21.1333,
+    "lng": -100.8333
+  },
+  {
+    "colonia": "Reforma",
+    "cp": "38013",
+    "lat": 21.2732,
+    "lng": -101.2936
+  },
+  {
+    "colonia": "El Campanario",
+    "cp": "38013",
+    "lat": 21.2732,
+    "lng": -101.2936
+  },
+  {
+    "colonia": "Rinconada Del Bosque",
+    "cp": "38013",
+    "lat": 21.2732,
+    "lng": -101.2936
+  },
+  {
+    "colonia": "Hacienda Del Sol",
+    "cp": "38013",
+    "lat": 21.2732,
+    "lng": -101.2936
+  },
+  {
+    "colonia": "Alamo Country Club",
+    "cp": "38013",
+    "lat": 21.2732,
+    "lng": -101.2936
+  },
+  {
+    "colonia": "Virgen Del Refugio",
+    "cp": "38013",
+    "lat": 21.2732,
+    "lng": -101.2936
+  },
+  {
+    "colonia": "Las Americas",
+    "cp": "38014",
+    "lat": 21.0806,
+    "lng": -101.0559
+  },
+  {
+    "colonia": "Americas Del Bajio",
+    "cp": "38014",
+    "lat": 21.0806,
+    "lng": -101.0559
+  },
+  {
+    "colonia": "Excelaris",
+    "cp": "38015",
+    "lat": 21.0806,
+    "lng": -101.0559
+  },
+  {
+    "colonia": "San Jeronimo",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "15 de Mayo",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Valle de los Naranjos II Seccion",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Villas de La Hacienda",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Latino",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Calesa",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Las Praderas",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Villa Arbolada",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "La Mision",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Raquet Club Cross",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Zona de Oro Del Bajio",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Don Gu",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Oro",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Valle de los Naranjos III Seccion",
+    "cp": "38016",
+    "lat": 20.75,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Lazaro Cardenas",
+    "cp": "38017",
+    "lat": 21.0625,
+    "lng": -101.5847
+  },
+  {
+    "colonia": "Ciudadela",
+    "cp": "38017",
+    "lat": 21.0158,
+    "lng": -101.1617
+  },
+  {
+    "colonia": "Guadalupe",
+    "cp": "38017",
+    "lat": 20.6167,
+    "lng": -101.15
+  },
+  {
+    "colonia": "La Begoña",
+    "cp": "38017",
+    "lat": 21.0158,
+    "lng": -101.1617
+  },
+  {
+    "colonia": "Las Aves",
+    "cp": "38017",
+    "lat": 21.3683,
+    "lng": -100.7503
+  },
+  {
+    "colonia": "Dos Plazas",
+    "cp": "38017",
+    "lat": 21.0158,
+    "lng": -101.1617
+  },
+  {
+    "colonia": "Canal de Labradores",
+    "cp": "38017",
+    "lat": 21.0158,
+    "lng": -101.1617
+  },
+  {
+    "colonia": "El Paraiso de los Angeles",
+    "cp": "38017",
+    "lat": 21.0158,
+    "lng": -101.1617
+  },
+  {
+    "colonia": "Tahi",
+    "cp": "38017",
+    "lat": 21.0158,
+    "lng": -101.1617
+  },
+  {
+    "colonia": "10 de Abril",
+    "cp": "38018",
+    "lat": 21.0806,
+    "lng": -101.0559
+  },
+  {
+    "colonia": "Praderas de La Hacienda",
+    "cp": "38019",
+    "lat": 21.0806,
+    "lng": -101.0559
+  },
+  {
+    "colonia": "Praderas de La Palmita",
+    "cp": "38019",
+    "lat": 21.0806,
+    "lng": -101.0559
+  },
+  {
+    "colonia": "Providencia",
+    "cp": "38020",
+    "lat": 20.3572,
+    "lng": -101.0189
+  },
+  {
+    "colonia": "San Juanico",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Santa Anita",
+    "cp": "38020",
+    "lat": 21.0181,
+    "lng": -100.3281
+  },
+  {
+    "colonia": "El Panamericano",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "La Aurora",
+    "cp": "38020",
+    "lat": 20.9167,
+    "lng": -100.7333
+  },
+  {
+    "colonia": "Bugambilias",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Los Laureles 2a Secc",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Los Girasoles 1a Secc",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Rinconada Laureles",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Hidalgo",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Valle Residencial",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Rincon Del Ciruelo",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Valle de los Girasoles",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Residencial Xochipilli",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Los Girasoles 2a Secc",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Los Girasoles 3a Secc",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Residencial Paraiso",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Residencial Bosques",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Los Laureles 1a Secc",
+    "cp": "38020",
+    "lat": 20.764,
+    "lng": -100.6934
+  },
+  {
+    "colonia": "Infonavit",
+    "cp": "38022",
+    "lat": 20.695,
+    "lng": -100.8804
+  },
+  {
+    "colonia": "Zona de Oro",
+    "cp": "38023",
+    "lat": 20.695,
+    "lng": -100.8804
+  },
+  {
+    "colonia": "Casa Blanca",
+    "cp": "38024",
+    "lat": 20.4661,
+    "lng": -100.9672
+  },
+  {
+    "colonia": "Alamos 5a Seccion",
+    "cp": "38024",
+    "lat": 20.4661,
+    "lng": -100.9672
+  },
+  {
+    "colonia": "Santa Cecilia",
+    "cp": "38024",
+    "lat": 20.4661,
+    "lng": -100.9672
+  },
+  {
+    "colonia": "Valle Del Real",
+    "cp": "38024",
+    "lat": 20.4661,
+    "lng": -100.9672
+  },
+  {
+    "colonia": "Alamos 3a Secc",
+    "cp": "38024",
+    "lat": 20.4661,
+    "lng": -100.9672
+  },
+  {
+    "colonia": "Santa Cecilia Alamo",
+    "cp": "38024",
+    "lat": 20.4661,
+    "lng": -100.9672
+  },
+  {
+    "colonia": "Los Alamos",
+    "cp": "38024",
+    "lat": 20.4661,
+    "lng": -100.9672
+  },
+  {
+    "colonia": "Paseo de los Alamos",
+    "cp": "38024",
+    "lat": 20.4661,
+    "lng": -100.9672
+  },
+  {
+    "colonia": "Mision de los Alamos",
+    "cp": "38024",
+    "lat": 20.4661,
+    "lng": -100.9672
+  },
+  {
+    "colonia": "Los Sauces",
+    "cp": "38027",
+    "lat": 20.695,
+    "lng": -100.8804
+  },
+  {
+    "colonia": "San Juanico 2a Secc",
+    "cp": "38027",
+    "lat": 20.695,
+    "lng": -100.8804
+  },
+  {
+    "colonia": "Villas San Angel",
+    "cp": "38027",
+    "lat": 20.695,
+    "lng": -100.8804
+  },
+  {
+    "colonia": "San Juanico 1a Secc",
+    "cp": "38027",
+    "lat": 20.695,
+    "lng": -100.8804
+  },
+  {
+    "colonia": "Nuevo Celaya",
+    "cp": "38027",
+    "lat": 20.695,
+    "lng": -100.8804
+  },
+  {
+    "colonia": "El Pueblito de San Angel",
+    "cp": "38027",
+    "lat": 20.695,
+    "lng": -100.8804
+  },
+  {
+    "colonia": "La Esperanza",
+    "cp": "38028",
+    "lat": 20.5194,
+    "lng": -100.9308
+  },
+  {
+    "colonia": "Los Pinos",
+    "cp": "38028",
+    "lat": 21.1275,
+    "lng": -101.3906
+  },
+  {
+    "colonia": "La Cruz",
+    "cp": "38028",
+    "lat": 20.4597,
+    "lng": -100.7942
+  },
+  {
+    "colonia": "El Haba",
+    "cp": "38028",
+    "lat": 20.7022,
+    "lng": -101.0385
+  },
+  {
+    "colonia": "Imperial",
+    "cp": "38028",
+    "lat": 20.7022,
+    "lng": -101.0385
+  },
+  {
+    "colonia": "Villas de La Esperanza",
+    "cp": "38028",
+    "lat": 20.7022,
+    "lng": -101.0385
+  },
+  {
+    "colonia": "Del Bosque",
+    "cp": "38028",
+    "lat": 20.7022,
+    "lng": -101.0385
+  },
+  {
+    "colonia": "Emiliano Zapata",
+    "cp": "38030",
+    "lat": 20.6169,
+    "lng": -101.0403
+  },
+  {
+    "colonia": "Recursos Hidraulicos",
+    "cp": "38030",
+    "lat": 20.4883,
+    "lng": -101.1568
+  },
+  {
+    "colonia": "Benito Juarez",
+    "cp": "38030",
+    "lat": 20.3597,
+    "lng": -101.2733
+  },
+  {
+    "colonia": "Tierra y Libertad",
+    "cp": "38030",
+    "lat": 20.4883,
+    "lng": -101.1568
+  },
+  {
+    "colonia": "Monte de Camargo",
+    "cp": "38030",
+    "lat": 20.4883,
+    "lng": -101.1568
+  },
+  {
+    "colonia": "Emiliano Zapata Norte",
+    "cp": "38030",
+    "lat": 20.4883,
+    "lng": -101.1568
+  },
+  {
+    "colonia": "Lopez Portillo",
+    "cp": "38033",
+    "lat": 20.7461,
+    "lng": -100.9956
+  },
+  {
+    "colonia": "Praderas Del Bosque",
+    "cp": "38033",
+    "lat": 20.7461,
+    "lng": -100.9956
+  },
+  {
+    "colonia": "Emiliano Zapata Sur",
+    "cp": "38033",
+    "lat": 20.7461,
+    "lng": -100.9956
+  },
+  {
+    "colonia": "Bosques de La Alameda",
+    "cp": "38033",
+    "lat": 20.7461,
+    "lng": -100.9956
+  },
+  {
+    "colonia": "El Sillar",
+    "cp": "38033",
+    "lat": 20.7461,
+    "lng": -100.9956
+  },
+  {
+    "colonia": "La Favorita",
+    "cp": "38033",
+    "lat": 20.7461,
+    "lng": -100.9956
+  },
+  {
+    "colonia": "Villas de Benavente",
+    "cp": "38034",
+    "lat": 20.7461,
+    "lng": -100.9956
+  },
+  {
+    "colonia": "Villas Reales",
+    "cp": "38034",
+    "lat": 20.7461,
+    "lng": -100.9956
+  },
+  {
+    "colonia": "Los Tules",
+    "cp": "38034",
+    "lat": 20.7461,
+    "lng": -100.9956
+  },
+  {
+    "colonia": "Cuauhtemoc",
+    "cp": "38034",
+    "lat": 20.7461,
+    "lng": -100.9956
+  },
+  {
+    "colonia": "Emiliano Zapata",
+    "cp": "38035",
+    "lat": 20.6169,
+    "lng": -101.0403
+  },
+  {
+    "colonia": "Villas de Santa Fe",
+    "cp": "38035",
+    "lat": 20.7147,
+    "lng": -101.0229
+  },
+  {
+    "colonia": "Santa Rita",
+    "cp": "38035",
+    "lat": 20.8125,
+    "lng": -101.0056
+  },
+  {
+    "colonia": "Villas Jardin",
+    "cp": "38035",
+    "lat": 20.7147,
+    "lng": -101.0229
+  },
+  {
+    "colonia": "Gobernadores",
+    "cp": "38035",
+    "lat": 20.7147,
+    "lng": -101.0229
+  },
+  {
+    "colonia": "Mision Santa Fe",
+    "cp": "38035",
+    "lat": 20.7147,
+    "lng": -101.0229
+  },
+  {
+    "colonia": "Los Santos",
+    "cp": "38035",
+    "lat": 20.7147,
+    "lng": -101.0229
+  },
+  {
+    "colonia": "Villas Del Benavente II",
+    "cp": "38035",
+    "lat": 20.7147,
+    "lng": -101.0229
+  },
+  {
+    "colonia": "Brisas Del Carmen",
+    "cp": "38035",
+    "lat": 20.7147,
+    "lng": -101.0229
+  },
+  {
+    "colonia": "La Higuera Exhacienda de Silva",
+    "cp": "38035",
+    "lat": 20.7147,
+    "lng": -101.0229
+  },
+  {
+    "colonia": "Moctezuma",
+    "cp": "38035",
+    "lat": 20.7147,
+    "lng": -101.0229
+  },
+  {
+    "colonia": "Nat Ra Hi",
+    "cp": "38035",
+    "lat": 20.7147,
+    "lng": -101.0229
+  },
+  {
+    "colonia": "La Rinconada de San Miguel",
+    "cp": "38035",
+    "lat": 20.7147,
+    "lng": -101.0229
+  },
+  {
+    "colonia": "Los Pirules",
+    "cp": "38036",
+    "lat": 21.3244,
+    "lng": -100.6186
+  },
+  {
+    "colonia": "Mision de La Esperanza",
+    "cp": "38036",
+    "lat": 21.3244,
+    "lng": -100.6186
+  },
+  {
+    "colonia": "La Herradura",
+    "cp": "38036",
+    "lat": 21.3244,
+    "lng": -100.6186
+  },
+  {
+    "colonia": "Viñas de La Herradura",
+    "cp": "38036",
+    "lat": 21.3244,
+    "lng": -100.6186
+  },
+  {
+    "colonia": "La Joya",
+    "cp": "38040",
+    "lat": 20.8667,
+    "lng": -100.9667
+  },
+  {
+    "colonia": "Las Arboledas 4a Secc",
+    "cp": "38040",
+    "lat": 20.8552,
+    "lng": -100.8786
+  },
+  {
+    "colonia": "Santa Anita",
+    "cp": "38040",
+    "lat": 21.0181,
+    "lng": -100.3281
+  },
+  {
+    "colonia": "Villas Del Paraiso",
+    "cp": "38040",
+    "lat": 20.8552,
+    "lng": -100.8786
+  },
+  {
+    "colonia": "Las Fuentes",
+    "cp": "38040",
+    "lat": 20.6689,
+    "lng": -101.0297
+  },
+  {
+    "colonia": "Los Angeles",
+    "cp": "38040",
+    "lat": 21.1639,
+    "lng": -100.7733
+  },
+  {
+    "colonia": "La Capilla",
+    "cp": "38040",
+    "lat": 20.5583,
+    "lng": -101.2953
+  },
+  {
+    "colonia": "Renacimiento",
+    "cp": "38044",
+    "lat": 20.8337,
+    "lng": -100.9459
+  },
+  {
+    "colonia": "Santo Cristo",
+    "cp": "38046",
+    "lat": 20.8337,
+    "lng": -100.9459
+  },
+  {
+    "colonia": "Los Impresionistas",
+    "cp": "38046",
+    "lat": 20.8337,
+    "lng": -100.9459
+  },
+  {
+    "colonia": "Granada",
+    "cp": "38046",
+    "lat": 20.8337,
+    "lng": -100.9459
+  },
+  {
+    "colonia": "Nieto",
+    "cp": "38047",
+    "lat": 20.8337,
+    "lng": -100.9459
+  },
+  {
+    "colonia": "Santiaguito",
+    "cp": "38047",
+    "lat": 20.8337,
+    "lng": -100.9459
+  },
+  {
+    "colonia": "San Antonio",
+    "cp": "38048",
+    "lat": 21.0667,
+    "lng": -100.4833
+  },
+  {
+    "colonia": "Tierras Negras",
+    "cp": "38048",
+    "lat": 20.4936,
+    "lng": -101.745
+  },
+  {
+    "colonia": "Del Valle",
+    "cp": "38048",
+    "lat": 20.7801,
+    "lng": -101.1142
+  },
+  {
+    "colonia": "Socialista",
+    "cp": "38049",
+    "lat": 20.8337,
+    "lng": -100.9459
+  },
+  {
+    "colonia": "Las Palmas",
+    "cp": "38050",
+    "lat": 21.0653,
+    "lng": -100.5544
+  },
+  {
+    "colonia": "Villa de los Reyes",
+    "cp": "38050",
+    "lat": 20.9349,
+    "lng": -100.6736
+  },
+  {
+    "colonia": "Zempoala",
+    "cp": "38050",
+    "lat": 20.3164,
+    "lng": -101.0714
+  },
+  {
+    "colonia": "Los Veintes",
+    "cp": "38050",
+    "lat": 20.9349,
+    "lng": -100.6736
+  },
+  {
+    "colonia": "Alameda",
+    "cp": "38050",
+    "lat": 21.0333,
+    "lng": -100.45
+  },
+  {
+    "colonia": "Mediterraneo",
+    "cp": "38050",
+    "lat": 20.9349,
+    "lng": -100.6736
+  },
+  {
+    "colonia": "Los Pirules",
+    "cp": "38050",
+    "lat": 21.3244,
+    "lng": -100.6186
+  },
+  {
+    "colonia": "Parque Central",
+    "cp": "38050",
+    "lat": 20.9349,
+    "lng": -100.6736
+  },
+  {
+    "colonia": "Residencial Alameda",
+    "cp": "38050",
+    "lat": 20.9349,
+    "lng": -100.6736
+  },
+  {
+    "colonia": "El Zapote",
+    "cp": "38057",
+    "lat": 20.4294,
+    "lng": -100.9217
+  },
+  {
+    "colonia": "Karina",
+    "cp": "38057",
+    "lat": 20.4294,
+    "lng": -100.9217
+  },
+  {
+    "colonia": "Arcada Alameda",
+    "cp": "38057",
+    "lat": 20.4294,
+    "lng": -100.9217
+  },
+  {
+    "colonia": "Miguel Aleman",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Residencial",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Las Arboledas 3a Secc",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Las Arboledas 1a Secc",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Rosalinda I",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Las Arboledas 2a Secc",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Vivienda Popular",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Rosalinda II",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Bosques de Chapultepec",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Quinta Bugambilias",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Los Lagos",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Imss",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Suiza",
+    "cp": "38060",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "Esmeralda",
+    "cp": "38065",
+    "lat": 20.7167,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "San Juan",
+    "cp": "38065",
+    "lat": 20.7167,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "San Nicolas de Parra",
+    "cp": "38065",
+    "lat": 20.7167,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Enrique Colunga",
+    "cp": "38067",
+    "lat": 20.7801,
+    "lng": -101.1489
+  },
+  {
+    "colonia": "San Miguel",
+    "cp": "38068",
+    "lat": 20.8436,
+    "lng": -101.5311
+  },
+  {
+    "colonia": "Las Higueras",
+    "cp": "38070",
+    "lat": 21.2397,
+    "lng": -100.1706
+  },
+  {
+    "colonia": "Emeteria Valencia",
+    "cp": "38070",
+    "lat": 21.0417,
+    "lng": -100.8508
+  },
+  {
+    "colonia": "San Miguel",
+    "cp": "38070",
+    "lat": 20.8436,
+    "lng": -101.5311
+  },
+  {
+    "colonia": "San Juan de Dios",
+    "cp": "38070",
+    "lat": 21.0417,
+    "lng": -100.8508
+  },
+  {
+    "colonia": "Villas Del Rocio",
+    "cp": "38070",
+    "lat": 21.0417,
+    "lng": -100.8508
+  },
+  {
+    "colonia": "Jardines Del Centro",
+    "cp": "38070",
+    "lat": 21.0417,
+    "lng": -100.8508
+  },
+  {
+    "colonia": "Privada Viudad de San Roman",
+    "cp": "38070",
+    "lat": 21.0417,
+    "lng": -100.8508
+  },
+  {
+    "colonia": "El Olivar",
+    "cp": "38070",
+    "lat": 21.0417,
+    "lng": -100.8508
+  },
+  {
+    "colonia": "Marbella",
+    "cp": "38070",
+    "lat": 21.0417,
+    "lng": -100.8508
+  },
+  {
+    "colonia": "Santa Elena",
+    "cp": "38077",
+    "lat": 20.6333,
+    "lng": -101.2667
+  },
+  {
+    "colonia": "El Vergel",
+    "cp": "38078",
+    "lat": 21.4667,
+    "lng": -100.65
+  },
+  {
+    "colonia": "Paseo Floresta",
+    "cp": "38078",
+    "lat": 21.4667,
+    "lng": -100.65
+  },
+  {
+    "colonia": "Villas Quetzal",
+    "cp": "38078",
+    "lat": 21.4667,
+    "lng": -100.65
+  },
+  {
+    "colonia": "Quinta Boulevard",
+    "cp": "38078",
+    "lat": 21.4667,
+    "lng": -100.65
+  },
+  {
+    "colonia": "Villas de Celaya",
+    "cp": "38078",
+    "lat": 21.4667,
+    "lng": -100.65
+  },
+  {
+    "colonia": "Ejecutivo",
+    "cp": "38078",
+    "lat": 21.4667,
+    "lng": -100.65
+  },
+  {
+    "colonia": "La Aurora",
+    "cp": "38079",
+    "lat": 20.9167,
+    "lng": -100.7333
+  },
+  {
+    "colonia": "El Molino",
+    "cp": "38079",
+    "lat": 21.2303,
+    "lng": -100.92
+  },
+  {
+    "colonia": "Capitales de Europa",
+    "cp": "38079",
+    "lat": 21.0735,
+    "lng": -100.8267
+  },
+  {
+    "colonia": "El Dorado",
+    "cp": "38079",
+    "lat": 21.0735,
+    "lng": -100.8267
+  },
+  {
+    "colonia": "Las Americas",
+    "cp": "38079",
+    "lat": 21.0735,
+    "lng": -100.8267
+  },
+  {
+    "colonia": "Resurreccion",
+    "cp": "38079",
+    "lat": 21.0735,
+    "lng": -100.8267
+  },
+  {
+    "colonia": "Capitales de America",
+    "cp": "38079",
+    "lat": 21.0735,
+    "lng": -100.8267
+  },
+  {
+    "colonia": "Las Delicias",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "3 Guerras",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Arboledas Del Campestre",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Jardines de Celaya 2a Secc",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Jardines de Celaya 1a Secc",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "El Campestre",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Riveras Del Campestre",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Liberacion",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Villas Del Tenis",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Jardines Del Sur",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Jardines de Celaya 3a Secc",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Obrero Mundial",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Las Insurgentes",
+    "cp": "38080",
+    "lat": 21.2333,
+    "lng": -100.6
+  },
+  {
+    "colonia": "La Condesa",
+    "cp": "38083",
+    "lat": 20.2342,
+    "lng": -100.7783
+  },
+  {
+    "colonia": "Progreso Solidaridad",
+    "cp": "38085",
+    "lat": 20.7719,
+    "lng": -100.7173
+  },
+  {
+    "colonia": "Del Bosque 3a Secc",
+    "cp": "38085",
+    "lat": 20.7719,
+    "lng": -100.7173
+  },
+  {
+    "colonia": "Del Bosque 1a Secc",
+    "cp": "38085",
+    "lat": 20.7719,
+    "lng": -100.7173
+  },
+  {
+    "colonia": "Del Bosque 2a Secc",
+    "cp": "38085",
+    "lat": 20.7719,
+    "lng": -100.7173
+  },
+  {
+    "colonia": "San Jose de Torres",
+    "cp": "38085",
+    "lat": 20.7719,
+    "lng": -100.7173
+  },
+  {
+    "colonia": "Villa de Celaya",
+    "cp": "38088",
+    "lat": 20.7719,
+    "lng": -100.7173
+  },
+  {
+    "colonia": "Privada Nat Han Hi",
+    "cp": "38088",
+    "lat": 20.7719,
+    "lng": -100.7173
+  },
+  {
+    "colonia": "Paseos Del Campestre",
+    "cp": "38088",
+    "lat": 20.7719,
+    "lng": -100.7173
+  },
+  {
+    "colonia": "Praderas Del Campestre",
+    "cp": "38088",
+    "lat": 20.7719,
+    "lng": -100.7173
+  },
+  {
+    "colonia": "Campestre de Celaya",
+    "cp": "38088",
+    "lat": 20.7719,
+    "lng": -100.7173
+  },
+  {
+    "colonia": "La Fundacion",
+    "cp": "38089",
+    "lat": 20.8483,
+    "lng": -100.7736
+  },
+  {
+    "colonia": "Santa Teresa",
+    "cp": "38089",
+    "lat": 20.8483,
+    "lng": -100.7736
+  },
+  {
+    "colonia": "Tierra Blanca",
+    "cp": "38090",
+    "lat": 20.9669,
+    "lng": -100.8744
+  },
+  {
+    "colonia": "La Soledad",
+    "cp": "38090",
+    "lat": 20.7,
+    "lng": -100.75
+  },
+  {
+    "colonia": "Arboledas Del Pedregal",
+    "cp": "38090",
+    "lat": 20.8062,
+    "lng": -100.7561
+  },
+  {
+    "colonia": "Santa Isabel",
+    "cp": "38090",
+    "lat": 20.375,
+    "lng": -100.5636
+  },
+  {
+    "colonia": "Santa Maria",
+    "cp": "38090",
+    "lat": 20.8761,
+    "lng": -100.5408
+  },
+  {
+    "colonia": "Santa Barbara",
+    "cp": "38090",
+    "lat": 21.0522,
+    "lng": -101.0078
+  },
+  {
+    "colonia": "Bonanza",
+    "cp": "38090",
+    "lat": 20.8062,
+    "lng": -100.7561
+  },
+  {
+    "colonia": "Las Flores",
+    "cp": "38090",
+    "lat": 20.8667,
+    "lng": -100.8
+  },
+  {
+    "colonia": "Jacarandas",
+    "cp": "38090",
+    "lat": 20.8062,
+    "lng": -100.7561
+  },
+  {
+    "colonia": "Los Frailes",
+    "cp": "38090",
+    "lat": 20.8062,
+    "lng": -100.7561
+  },
+  {
+    "colonia": "Reforma",
+    "cp": "38090",
+    "lat": 20.8062,
+    "lng": -100.7561
+  },
+  {
+    "colonia": "Rinconada San Jorge",
+    "cp": "38090",
+    "lat": 20.8062,
+    "lng": -100.7561
+  },
+  {
+    "colonia": "Jose Suarez Irigoyen",
+    "cp": "38090",
+    "lat": 20.8062,
+    "lng": -100.7561
+  },
+  {
+    "colonia": "Floresta Del Sur",
+    "cp": "38090",
+    "lat": 20.8062,
+    "lng": -100.7561
+  },
+  {
+    "colonia": "Villas Del Romeral",
+    "cp": "38095",
+    "lat": 20.88,
+    "lng": -100.7356
+  },
+  {
+    "colonia": "Seco",
+    "cp": "38095",
+    "lat": 20.88,
+    "lng": -100.7356
+  },
+  {
+    "colonia": "Revolucion",
+    "cp": "38096",
+    "lat": 20.88,
+    "lng": -100.7356
+  },
+  {
+    "colonia": "Independencia",
+    "cp": "38096",
+    "lat": 20.88,
+    "lng": -100.7356
+  },
+  {
+    "colonia": "Santa Cecilia",
+    "cp": "38096",
+    "lat": 20.88,
+    "lng": -100.7356
+  },
+  {
+    "colonia": "San Francisco",
+    "cp": "38097",
+    "lat": 21.1,
+    "lng": -100.8833
+  },
+  {
+    "colonia": "Santa Lucia",
+    "cp": "38097",
+    "lat": 20.8667,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Bosques Del Sol",
+    "cp": "38097",
+    "lat": 20.9833,
+    "lng": -100.7417
+  },
+  {
+    "colonia": "El Cantar",
+    "cp": "38097",
+    "lat": 20.9833,
+    "lng": -100.7417
+  },
+  {
+    "colonia": "Valle de La Primavera",
+    "cp": "38098",
+    "lat": 20.88,
+    "lng": -100.7356
+  },
+  {
+    "colonia": "Ejidal",
+    "cp": "38098",
+    "lat": 20.88,
+    "lng": -100.7356
+  },
+  {
+    "colonia": "Quinta Arboledas",
+    "cp": "38098",
+    "lat": 20.88,
+    "lng": -100.7356
+  },
+  {
+    "colonia": "San Rafael",
+    "cp": "38099",
+    "lat": 21.1167,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Monte Blanco",
+    "cp": "38099",
+    "lat": 21.1167,
+    "lng": -100.6
+  },
+  {
+    "colonia": "Felipe Angeles",
+    "cp": "38099",
+    "lat": 21.1167,
+    "lng": -100.6
+  },
+  {
+    "colonia": "San Juan de La Vega",
+    "cp": "38100",
+    "lat": 20.6333,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "Santa Teresa",
+    "cp": "38102",
+    "lat": 20.6461,
+    "lng": -100.8611
+  },
+  {
+    "colonia": "San Nicolas de Esquiros",
+    "cp": "38102",
+    "lat": 20.6797,
+    "lng": -100.7719
+  },
+  {
+    "colonia": "San Elias",
+    "cp": "38102",
+    "lat": 20.6333,
+    "lng": -100.8333
+  },
+  {
+    "colonia": "San Isidro de La Concepcion",
+    "cp": "38104",
+    "lat": 20.6419,
+    "lng": -100.7886
+  },
+  {
+    "colonia": "Presa Blanca",
+    "cp": "38104",
+    "lat": 20.6419,
+    "lng": -100.7886
+  },
+  {
+    "colonia": "San Antonio Espinosa",
+    "cp": "38104",
+    "lat": 20.6419,
+    "lng": -100.7886
+  },
+  {
+    "colonia": "El Molino",
+    "cp": "38110",
+    "lat": 20.2453,
+    "lng": -100.9139
+  },
+  {
+    "colonia": "Roque",
+    "cp": "38110",
+    "lat": 20.5667,
+    "lng": -100.8167
+  },
+  {
+    "colonia": "Estrada",
+    "cp": "38110",
+    "lat": 20.5333,
+    "lng": -100.8833
+  },
+  {
+    "colonia": "Segunda Fraccion de Crespo",
+    "cp": "38110",
+    "lat": 20.5118,
+    "lng": -100.8758
+  },
+  {
+    "colonia": "Yustis",
+    "cp": "38110",
+    "lat": 20.5833,
+    "lng": -100.8667
+  },
+  {
+    "colonia": "San Jose de Guanajuato",
+    "cp": "38110",
+    "lat": 20.5586,
+    "lng": -100.8908
+  },
+  {
+    "colonia": "Gasca 1",
+    "cp": "38110",
+    "lat": 20.5118,
+    "lng": -100.8758
+  },
+  {
+    "colonia": "Elguera",
+    "cp": "38110",
+    "lat": 20.5833,
+    "lng": -100.8833
+  },
+  {
+    "colonia": "Roque Escuela",
+    "cp": "38110",
+    "lat": 20.5118,
+    "lng": -100.8758
+  },
+  {
+    "colonia": "San Isidro de Elguera",
+    "cp": "38110",
+    "lat": 20.5118,
+    "lng": -100.8758
+  },
+  {
+    "colonia": "Primera Fraccion de Crespo",
+    "cp": "38110",
+    "lat": 20.5118,
+    "lng": -100.8758
+  },
+  {
+    "colonia": "La Trinidad",
+    "cp": "38111",
+    "lat": 20.7331,
+    "lng": -101.2578
+  },
+  {
+    "colonia": "San Isidro Silva",
+    "cp": "38114",
+    "lat": 20.6236,
+    "lng": -100.8656
+  },
+  {
+    "colonia": "El Becerro",
+    "cp": "38115",
+    "lat": 20.5333,
+    "lng": -100.8667
+  },
+  {
+    "colonia": "Degollado Santos",
+    "cp": "38117",
+    "lat": 20.5472,
+    "lng": -100.8564
+  },
+  {
+    "colonia": "El Alamo",
+    "cp": "38118",
+    "lat": 21.2303,
+    "lng": -100.7181
+  },
+  {
+    "colonia": "La Palmita",
+    "cp": "38119",
+    "lat": 20.7447,
+    "lng": -100.5675
+  },
+  {
+    "colonia": "Teneria Del Santuario",
+    "cp": "38120",
+    "lat": 20.575,
+    "lng": -100.7917
+  },
+  {
+    "colonia": "Camargo",
+    "cp": "38120",
+    "lat": 20.55,
+    "lng": -100.7833
+  },
+  {
+    "colonia": "Plancarte",
+    "cp": "38120",
+    "lat": 20.6,
+    "lng": -100.8
+  },
+  {
+    "colonia": "La Concepcion",
+    "cp": "38121",
+    "lat": 20.1789,
+    "lng": -100.7381
+  },
+  {
+    "colonia": "Mendoza",
+    "cp": "38121",
+    "lat": 20.6,
+    "lng": -100.7667
+  },
+  {
+    "colonia": "San Cayetano 1",
+    "cp": "38125",
+    "lat": 20.4998,
+    "lng": -100.7739
+  },
+  {
+    "colonia": "San Luis Rey",
+    "cp": "38127",
+    "lat": 20.5703,
+    "lng": -100.7817
+  }
+]

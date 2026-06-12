@@ -1,0 +1,18 @@
+[
+  { "colonia": "Zona Centro", "routeId": "RUTA-01", "horarioEstimado": "Matutino (06:30 - 07:15)" },
+  { "colonia": "Las Arboledas", "routeId": "RUTA-01", "horarioEstimado": "Matutino (07:00 - 07:30)" },
+  { "colonia": "Sector Norte - Av. Tecnológico", "routeId": "RUTA-02", "horarioEstimado": "Matutino (06:30 - 07:10)" },
+  { "colonia": "San Juanico", "routeId": "RUTA-03", "horarioEstimado": "Matutino (06:45 - 07:15)" },
+  { "colonia": "Los Olivos", "routeId": "RUTA-04", "horarioEstimado": "Matutino (07:00 - 07:40)" },
+  { "colonia": "Rancho Seco", "routeId": "RUTA-05", "horarioEstimado": "Vespertino (14:15 - 15:00)" },
+  { "colonia": "Rumbos de Roque", "routeId": "RUTA-06", "horarioEstimado": "Matutino (06:30 - 07:20)" },
+  { "colonia": "Ciudad Industrial", "routeId": "RUTA-07", "horarioEstimado": "Matutino (06:30 - 07:15)" },
+  { "colonia": "Universidad Latina", "routeId": "RUTA-08", "horarioEstimado": "Matutino (06:45 - 07:20)" },
+  { "colonia": "Hospital General", "routeId": "RUTA-09", "horarioEstimado": "Matutino (06:20 - 07:00)" },
+  { "colonia": "Sede UG Sur", "routeId": "RUTA-10", "horarioEstimado": "Matutino (06:45 - 07:20)" },
+  { "colonia": "Torres Landa", "routeId": "RUTA-11", "horarioEstimado": "Matutino (06:30 - 07:10)" },
+  { "colonia": "Las Insurgentes", "routeId": "RUTA-12", "horarioEstimado": "Matutino (06:35 - 07:10)" },
+  { "colonia": "Trojes", "routeId": "RUTA-13", "horarioEstimado": "Matutino (06:40 - 07:10)" },
+  { "colonia": "La Toscana", "routeId": "RUTA-14", "horarioEstimado": "Matutino (06:45 - 07:20)" },
+  { "colonia": "San José de Celaya", "routeId": "RUTA-15", "horarioEstimado": "Matutino (06:45 - 07:20)" }
+]

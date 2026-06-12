@@ -1,0 +1,26 @@
+[
+  {
+    "triggerEvent": "ROUTE_START",
+    "condition": "Cuando positionId cambia de 1 a 2",
+    "pushPayload": {
+      "title": "¡Ruta Iniciada!",
+      "body": "El camión recolector ha salido del Relleno Sanitario rumbo a tu sector. Asegúrate de tener listos tus residuos."
+    }
+  },
+  {
+    "triggerEvent": "TRUCK_PROXIMITY",
+    "condition": "Cuando positionId llega a 4 (punto previo al destino)",
+    "pushPayload": {
+      "title": "Camión Cercano",
+      "body": "El camión está a menos de 15 minutos de tu domicilio. Es momento de sacar tus bolsas a la acera."
+    }
+  },
+  {
+    "triggerEvent": "ROUTE_COMPLETED",
+    "condition": "Cuando positionId llega a 8 (retorno al basurero)",
+    "pushPayload": {
+      "title": "Servicio Finalizado",
+      "body": "El camión de tu sector ha concluido su jornada de recolección diaria."
+    }
+  }
+]
