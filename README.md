@@ -198,14 +198,18 @@ Swagger UI disponible en `http://localhost:8000/docs`
 
 ---
 
+## 👨‍💻 Mi rol
+
+**Desarrollo tecnico completo del proyecto** — frontend (React Native), backend (FastAPI), base de datos, API REST, autenticacion JWT, logica geoespacial (Haversine), simulador de rutas y servidor WebSocket. Implemente la totalidad del sistema de extremo a extremo.
+
 ## 👥 Equipo — Fenix
 
-Proyecto desarrollado en equipo durante el hackathon **HackOnLinces 2026**:
+Proyecto presentado como equipo en el hackathon **HackOnLinces 2026**:
 
-- **Edith Roque Moya** — Lider
-- **Vivian Goretti Vargas de la Cruz**
-- **Ricardo Rodriguez Arellano** — ML Engineer + Backend
-- **Geraldine Romero Garcia**
+- **Ricardo Rodriguez Arellano** — Desarrollo tecnico completo (frontend, backend, base de datos, tiempo real)
+- Edith Roque Moya
+- Vivian Goretti Vargas de la Cruz
+- Geraldine Romero Garcia
 
 > Instituto Tecnologico de Celaya · HackOnLinces 2026
 
