@@ -1,58 +1,115 @@
-# 🚛 BasuraApp — HackOnLinces 2026
+<div align="center">
 
-Sistema de notificación inteligente y privada de recolección de residuos para la ciudadanía de Celaya, Guanajuato.
+# 🚛 BasuraApp — Fénix
 
-## 🎯 Problemática
+### Notificacion inteligente y privada de recoleccion de residuos
+#### Celaya, Guanajuato · HackOnLinces 2026
 
-Los ciudadanos no saben con certeza cuándo pasará el camión recolector, lo que genera basura en la calle fuera de horario, problemas de salud pública y fauna nociva.
+<br/>
 
-## ✅ Solución
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 
-App móvil que notifica la hora aproximada de llegada del camión **sin exponer la ruta completa**, bajo un principio de **Privacidad por Diseño**.
+<br/>
+
+*"No importa si llegas a caer, regresaras de las cenizas"*
+
+</div>
+
+---
+
+## 📑 Contenido
+
+- [Problematica](#-problematica)
+- [Solucion](#-solucion)
+- [Arquitectura](#%EF%B8%8F-arquitectura)
+- [Privacidad por Diseno](#-privacidad-por-diseno)
+- [Funcionalidades](#-funcionalidades-mvp)
+- [Stack Tecnologico](#%EF%B8%8F-stack-tecnologico)
+- [Como correr el proyecto](#-como-correr-el-proyecto)
+- [Endpoints](#-endpoints-principales)
+- [Equipo](#-equipo--fenix)
+
+---
+
+## 🎯 Problematica
+
+Los ciudadanos no saben con certeza cuando pasara el camion recolector, lo que genera basura en la calle fuera de horario, problemas de salud publica y fauna nociva.
+
+## ✅ Solucion
+
+App movil que notifica la hora aproximada de llegada del camion **sin exponer la ruta completa**, bajo un principio de **Privacidad por Diseno**.
+
+---
 
 ## 🏗️ Arquitectura
-Frontend (React Native / Expo)
-↓ JWT + HTTPS + WebSocket
-API Gateway + Auth (FastAPI)
-↓ RBAC por domicilio
-┌──────────────────────────────────────────┐
-│  ETA Service  │  Simulator  │  WS Server │
-│  (cálculo)    │  (cron job) │  (tiempo   │
-│  + Haversine  │  15 rutas   │   real)    │
-└──────────────────────────────────────────┘
-↓
-PostgreSQL — Usuario → Domicilio → Zona → Ruta
-## 🔒 Privacidad por Diseño
 
-- El usuario **solo ve** la ventana de llegada de su ruta asignada
-- La API valida en cada request que el `usuario` solo accede a su `domicilio`
-- **Prohibido**: mapa en tiempo real, rastreo del camión, explorar rutas ajenas
-- Mensajería preventiva: la app desalienta sacar basura fuera de horario
+```
+                Frontend (React Native / Expo)
+                            │
+                  JWT + HTTPS + WebSocket
+                            │
+                API Gateway + Auth (FastAPI)
+                            │
+                    RBAC por domicilio
+                            │
+    ┌───────────────┬───────────────┬───────────────┐
+    │  ETA Service  │   Simulator   │   WS Server   │
+    │   (calculo)   │  (cron job)   │ (tiempo real) │
+    │  + Haversine  │   15 rutas    │               │
+    └───────────────┴───────────────┴───────────────┘
+                            │
+        PostgreSQL — Usuario → Domicilio → Zona → Ruta
+```
+
+---
+
+## 🔒 Privacidad por Diseno
+
+- El usuario **solo ve** la ventana de llegada de su ruta asignada.
+- La API valida en cada request que el `usuario` solo accede a su `domicilio`.
+- **Prohibido por diseno:** mapa en tiempo real, rastreo del camion, explorar rutas ajenas.
+- Mensajeria preventiva: la app desalienta sacar basura fuera de horario.
+
+---
 
 ## 📱 Funcionalidades MVP
 
-- [x] Registro e inicio de sesión con JWT (email o teléfono)
-- [x] Múltiples domicilios por usuario (casa y trabajo)
-- [x] Alta de domicilio con 220 colonias reales de Celaya por código postal
-- [x] Geolocalización GPS para autocompletar dirección y CP
-- [x] Validación geoespacial con algoritmo Haversine
-- [x] ETA con ventana de llegada (±7 min)
-- [x] Simulador de rutas — cron job cada 2 min avanza 15 rutas
-- [x] WebSockets para ETA en tiempo real (fallback a polling cada 2 min)
-- [x] 3 eventos de notificación: ROUTE_START, TRUCK_PROXIMITY, ROUTE_COMPLETED
-- [x] Notificaciones configurables por tipo (activar/desactivar)
-- [x] Alertas operativas — retrasos y fallas mecánicas en tiempo real
-- [x] Guía de separación de residuos (funciona offline)
-- [x] RBAC — cada usuario solo consulta su ruta
-- [x] Buzón de reportes con 4 categorías
-- [x] Persistencia de sesión con AsyncStorage
-- [x] Pull to refresh y auto-refresh
-- [x] APK nativo compilado con EAS Build
+**Autenticacion y usuarios**
+- Registro e inicio de sesion con JWT (email o telefono).
+- Multiples domicilios por usuario (casa y trabajo).
+- Persistencia de sesion con AsyncStorage.
 
-## 🛠️ Stack Tecnológico
+**Geolocalizacion**
+- Alta de domicilio con 220 colonias reales de Celaya por codigo postal.
+- Geolocalizacion GPS para autocompletar direccion y CP.
+- Validacion geoespacial con algoritmo Haversine.
 
-| Capa | Tecnología |
-|------|-----------|
+**Tiempo real**
+- ETA con ventana de llegada (±7 min).
+- Simulador de rutas: cron job cada 2 min avanza 15 rutas.
+- WebSockets para ETA en tiempo real (fallback a polling cada 2 min).
+- 3 eventos de notificacion: `ROUTE_START`, `TRUCK_PROXIMITY`, `ROUTE_COMPLETED`.
+- Notificaciones configurables por tipo.
+- Alertas operativas: retrasos y fallas mecanicas en tiempo real.
+
+**Otras**
+- Guia de separacion de residuos (funciona offline).
+- RBAC: cada usuario solo consulta su ruta.
+- Buzon de reportes con 4 categorias.
+- Pull to refresh y auto-refresh.
+- APK nativo compilado con EAS Build.
+
+---
+
+## 🛠️ Stack Tecnologico
+
+| Capa | Tecnologia |
+| :--- | :--- |
 | Frontend | React Native + Expo SDK 54 |
 | Backend | Python 3.12 + FastAPI |
 | Tiempo real | WebSockets (FastAPI) |
@@ -61,63 +118,101 @@ PostgreSQL — Usuario → Domicilio → Zona → Ruta
 | Simulador | APScheduler (cron job cada 2 min) |
 | Geoespacial | Haversine + Nominatim (OpenStreetMap) |
 | Colonias | zippopotam.us + Nominatim (298 CPs, 220 colonias) |
-| Geolocalización | expo-location + reverseGeocodeAsync |
+| Geolocalizacion | expo-location + reverseGeocodeAsync |
 | Build nativo | EAS Build (Expo) |
-| Control de versiones | Gitea (git.onlinces.net) |
 
-## 🚀 Cómo correr el proyecto
+---
+
+## 🚀 Como correr el proyecto
+
+### Requisitos previos
+
+- Python 3.12+
+- Node.js 18+
+- PostgreSQL
+- Variable de entorno `SECRET_KEY` definida (ver mas abajo)
+
+### Configuracion de seguridad
+
+Antes de correr el backend, define la clave secreta para los JWT:
+
+```bash
+# Linux / Mac
+export SECRET_KEY="tu-clave-secreta-aqui"
+
+# Windows (CMD)
+set SECRET_KEY=tu-clave-secreta-aqui
+```
 
 ### Backend
+
 ```bash
 cd backend
 python3 -m venv venv
-source venv/bin/activate
+source venv/bin/activate        # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000 --host 0.0.0.0
 ```
 
 ### Frontend
+
 ```bash
 cd frontend
 npm install
 npx expo start
 ```
 
-### Documentación de la API
-Disponible en `http://localhost:8000/docs` (Swagger UI)
+### Documentacion de la API
+
+Swagger UI disponible en `http://localhost:8000/docs`
+
+---
 
 ## 📊 Datasets utilizados
 
-- `data/rutas.json` — 15 rutas con 8 posiciones GPS cada una
-- `data/colonias-rutas.json` — 7 colonias oficiales del dataset
-- `data/colonias_celaya.json` — 298 colonias reales obtenidas via zippopotam.us
-- `data/colonias_celaya_coords.json` — 220 colonias con coordenadas reales via Nominatim
-- `data/colonias-rutas-completo.json` — 220 colonias mapeadas a 15 rutas con Haversine
+| Archivo | Contenido |
+| :--- | :--- |
+| `data/rutas.json` | 15 rutas con 8 posiciones GPS cada una |
+| `data/colonias_celaya.json` | 298 colonias reales (via zippopotam.us) |
+| `data/colonias_celaya_coords.json` | 220 colonias con coordenadas reales (via Nominatim) |
+| `data/colonias-rutas-completo.json` | 220 colonias mapeadas a 15 rutas con Haversine |
+
+---
 
 ## 🔌 Endpoints principales
 
-| Método | Endpoint | Descripción |
-|--------|----------|-------------|
-| POST | `/auth/register` | Registro con email o teléfono |
-| POST | `/auth/login` | Login con JWT |
-| POST | `/domicilios` | Alta de domicilio |
-| GET | `/domicilios` | Listar domicilios del usuario |
-| GET | `/eta/{domicilio_id}` | Ventana de llegada ETA |
-| POST | `/reportes` | Buzón de retroalimentación |
-| POST | `/alertas/operativa` | Crear alerta de retraso/falla |
-| DELETE | `/alertas/operativa/{route_id}` | Eliminar alerta operativa |
-| GET | `/alertas/operativa/activa` | Consultar alerta activa |
-| GET | `/colonias-por-cp` | Colonias reales por código postal |
-| GET | `/domicilios/ruta-por-coordenadas` | Mapeo GPS a ruta por Haversine |
-| WS | `/ws/eta/{domicilio_id}` | ETA en tiempo real vía WebSocket |
-| GET | `/admin/rutas/estado` | Estado real de las 15 rutas (panel admin) |
+| Metodo | Endpoint | Descripcion |
+| :--- | :--- | :--- |
+| `POST` | `/auth/register` | Registro con email o telefono |
+| `POST` | `/auth/login` | Login con JWT |
+| `POST` | `/domicilios` | Alta de domicilio |
+| `GET` | `/domicilios` | Listar domicilios del usuario |
+| `GET` | `/eta/{domicilio_id}` | Ventana de llegada ETA |
+| `POST` | `/reportes` | Buzon de retroalimentacion |
+| `POST` | `/alertas/operativa` | Crear alerta de retraso/falla |
+| `GET` | `/alertas/operativa/activa` | Consultar alerta activa |
+| `GET` | `/colonias-por-cp` | Colonias reales por codigo postal |
+| `GET` | `/domicilios/ruta-por-coordenadas` | Mapeo GPS a ruta por Haversine |
+| `WS` | `/ws/eta/{domicilio_id}` | ETA en tiempo real via WebSocket |
+| `GET` | `/admin/rutas/estado` | Estado de las 15 rutas (panel admin) |
 
-## 👥 Equipo — Fénix
+---
 
-| Nombre | Matrícula |
-|--------|-----------|
-| Ricardo Rodriguez Arellano | 21031301@itcelaya.edu.mx |
+## 👥 Equipo — Fenix
 
+Proyecto desarrollado en equipo durante el hackathon **HackOnLinces 2026**:
 
-> *"No importa si llegas a caer, regresarás de las cenizas"*
-- **hack_21031301_c761d3** — HackOnLinces 2026
+- **Edith Roque Moya** — Lider
+- **Vivian Goretti Vargas de la Cruz**
+- **Ricardo Rodriguez Arellano** — ML Engineer + Backend
+- **Geraldine Romero Garcia**
+
+> Instituto Tecnologico de Celaya · HackOnLinces 2026
+
+---
+
+<div align="center">
+
+*Hecho con esfuerzo de equipo en formato hackathon* 🔥
+
+</div>
