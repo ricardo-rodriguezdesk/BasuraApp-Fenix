@@ -116,10 +116,8 @@ Disponible en `http://localhost:8000/docs` (Swagger UI)
 
 | Nombre | Matrícula |
 |--------|-----------|
-| Edith Roque Moya *(Líder)* | 25031381@itcelaya.edu.mx |
-| Vivian Goretti Vargas de la Cruz | 25032043@itcelaya.edu.mx |
 | Ricardo Rodriguez Arellano | 21031301@itcelaya.edu.mx |
-| Geraldine Romero Garcia | 25032048@itcelaya.edu.mx |
+
 
 > *"No importa si llegas a caer, regresarás de las cenizas"*
 - **hack_21031301_c761d3** — HackOnLinces 2026
